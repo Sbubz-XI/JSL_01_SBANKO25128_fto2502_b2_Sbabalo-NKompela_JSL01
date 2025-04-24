@@ -36,11 +36,11 @@ The **Kanban Task Manager** is a web-based tool designed to help users track the
 
 ### **📱 Mobile View**
 
-![Mobile UI](./explainer-images/mobile-preview.png)
+![Mobile UI](./explainer-images/JSL01_Mobile.png)
 
 ### **💻 Desktop View**
 
-![Desktop UI](./explainer-images/desktop-preview.png)
+![Desktop UI](./explainer-images/JSL01-Desktop.png)
 
 ---
 
