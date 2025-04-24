@@ -10,58 +10,61 @@
 
   <body class="bg-[#F4F7FD] flex">
 
-    <nav class="bg-white pr-4 h-screen w-75 md:w-75">
+    <nav class="bg-white shadow-md pr-4 h-screen w-75 md:w-75">
       <div class="w-auto h-18 bg-no-repeat bg-center bg-contain mx-3 my-3.5" style="background-image: url('assets/logo-light.svg');">
       </div>
-        <h4 class=" text-[#828FA3] px-2 py-3">ALL BOARDS (1)</h4>
-        <button class="bg-[#635FC7] text-white text-xl font-semibold w-69 p-2 rounded-r-2xl">Launch Career</button>
+        <h4 class=" text-[#828FA3] ml-7 py-4">ALL BOARDS (1)</h4>
+        <button class="bg-[#635FC7] text-white text-xl font-semibold w-69 p-2 rounded-r-3xl">Launch Career</button>
       </div>
     </nav>
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div>
-      <header class="bg-white w-full h-24.25 py-7">
+      <header class="bg-white w-full h-24.25 shadow-md flex justify-between items-center">
         <div>
           <h2 class="text-2xl font-bold ml-5">Launch Career</h2>
         </div>
       </header>
 
       <div>
-        <main class="grid grid-cols-3 gap-4">
+        <main class="pl-4 pt-5 grid grid-cols-3 gap-4">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
             <div>
               <span></span>
-              <h4>TODO</h4>
+              <h4 class="text-md text-[#828FA3] m-1">TODO</h4>
             </div>
             <!-- Tasks container for TODO -->
             <div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Launch Epic Career 🚀</div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Learn Data Structures and Algorithms 📚</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Launch Epic Career 🚀</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Conquer React ✡️</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Understand Daatabases ⚙️</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Crush Frameworks 🖼️</div>
             </div>
           </div>
           <!-- DOING Column -->
           <div>
             <div>
               <span></span>
-              <h4>DOING</h4>
+              <h4 class="text-md text-[#828FA3] m-1">DOING</h4>
             </div>
             <!-- Tasks container for DOING -->
             <div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Master JavaScript 💛</div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Keep on Going 🏆</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Master JavaScript 💛</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Keep on Going 🏆</div>
             </div>
           </div>
           <!-- DONE Column -->
           <div>
             <div>
               <span></span>
-              <h4>DONE</h4>
+              <h4 class="text-md text-[#828FA3] m-1">DONE</h4>
             </div>
             <!-- Tasks container for DONE -->
             <div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Contribute to Open Source Projects 🌐</div>
-              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Build Portfolio Projects 🛠️</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Contribute to Open Source Projects 🌐</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Build Portfolio Projects 🛠️</div>
+              <div class="bg-white rounded-xl m-1 py-3 pr-6 pl-4 text-md font-bold shadow-md">Have fun 🥳</div>
             </div>
           </div>
         </main>
