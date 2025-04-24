@@ -9,25 +9,25 @@
   </head> 
 
   <body class="bg-[#F4F7FD] flex">
-    <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
-    <nav class="bg-white h-screen">
-      <div class="w-auto h-auto" style="background-image: url('assets/logo-light.svg');">
+
+    <nav class="bg-white pr-4 h-screen w-75 md:w-75">
+      <div class="w-auto h-18 bg-no-repeat bg-center bg-contain mx-3 my-3.5" style="background-image: url('assets/logo-light.svg');">
       </div>
-        <h4>ALL BOARDS (1)</h4>
-        <button>Launch Career</button>
+        <h4 class=" text-[#828FA3] px-2 py-3">ALL BOARDS (1)</h4>
+        <button class="bg-[#635FC7] text-white text-xl font-semibold w-69 p-2 rounded-r-2xl">Launch Career</button>
       </div>
     </nav>
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div>
-      <header>
+      <header class="bg-white w-full h-24.25 py-7">
         <div>
-          <h2>Launch Career</h2>
+          <h2 class="text-2xl font-bold ml-5">Launch Career</h2>
         </div>
       </header>
 
       <div>
-        <main class="bg-amber-600 grid grid-cols-3 gap-4">
+        <main class="grid grid-cols-3 gap-4">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
             <div>
@@ -36,8 +36,8 @@
             </div>
             <!-- Tasks container for TODO -->
             <div>
-              <div>Launch Epic Career 🚀</div>
-              <div>Learn Data Structures and Algorithms 📚</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Launch Epic Career 🚀</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Learn Data Structures and Algorithms 📚</div>
             </div>
           </div>
           <!-- DOING Column -->
@@ -48,8 +48,8 @@
             </div>
             <!-- Tasks container for DOING -->
             <div>
-              <div>Master JavaScript 💛</div>
-              <div>Keep on Going 🏆</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Master JavaScript 💛</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Keep on Going 🏆</div>
             </div>
           </div>
           <!-- DONE Column -->
@@ -60,8 +60,8 @@
             </div>
             <!-- Tasks container for DONE -->
             <div>
-              <div>Contribute to Open Source Projects 🌐</div>
-              <div>Build Portfolio Projects 🛠️</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Contribute to Open Source Projects 🌐</div>
+              <div class="bg-white rounded-xl m-1 p-3 text-lg font-bold">Build Portfolio Projects 🛠️</div>
             </div>
           </div>
         </main>
