@@ -20,18 +20,18 @@
 
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div>
-      <header class="bg-white w-full h-24.25 shadow-md flex justify-between items-center">
+      <header class="bg-white w-screen h-24.25 shadow-md flex justify-between items-center">
         <div>
           <h2 class="text-2xl font-bold ml-5">Launch Career</h2>
         </div>
       </header>
 
       <div>
-        <main class="pl-4 pt-5 grid grid-cols-3 gap-4">
+        <main class="pl-4 pt-5 grid grid-cols-1 md:grid-cols-3 gap-4">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
           <div>
-            <div>
-              <span></span>
+            <div class="flex items-center">
+              <span class="bg-[#49C4E5] rounded-full w-2 h-2"></span>
               <h4 class="text-md text-[#828FA3] m-1">TODO</h4>
             </div>
             <!-- Tasks container for TODO -->
@@ -44,8 +44,8 @@
           </div>
           <!-- DOING Column -->
           <div>
-            <div>
-              <span></span>
+            <div class="flex items-center">
+              <span class="bg-[#8471F2] rounded-full w-2 h-2"></span>
               <h4 class="text-md text-[#828FA3] m-1">DOING</h4>
             </div>
             <!-- Tasks container for DOING -->
@@ -56,8 +56,8 @@
           </div>
           <!-- DONE Column -->
           <div>
-            <div>
-              <span></span>
+            <div class="flex items-center">
+              <span class="bg-[#67E2AE] rounded-full w-2 h-2"></span>
               <h4 class="text-md text-[#828FA3] m-1">DONE</h4>
             </div>
             <!-- Tasks container for DONE -->
